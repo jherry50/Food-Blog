@@ -9,7 +9,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100px auto 70px;
+    grid-template-rows: auto auto 70px;
 
     grid-template-areas:
     "hd"
@@ -56,6 +56,11 @@ body {
 .blogContent h2, h3{
     text-align: center;
     background-color: whitesmoke;
+}
+.share{
+    text-align: center;
+    border-top: 1px solid gray;
+    margin-top: 20px;
 }
 
 .footer {

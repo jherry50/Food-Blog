@@ -9,7 +9,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100px 200px auto 70px;
+    grid-template-rows: auto auto auto auto;
 
     grid-template-areas:
     "hd"
